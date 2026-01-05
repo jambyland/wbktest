@@ -1,0 +1,377 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  padding-left: 1rem;
+}
+
+#title {
+  background-color: #B7592E;
+  padding: 2%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the cards */
+    padding: 5%;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card effect */
+    max-width: 300px;
+    overflow: hidden; /* Ensures image corners are rounded by parent */
+    transition: transform 0.2s;
+    flex: 1; /* Makes cards grow to fill space */
+}
+
+.product-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.product-name {
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.product-description {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0 0 15px 0;
+}
+
+.product-price {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #000;
+    margin: 0 0 15px 0;
+}
+
+.book-info {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 2%;
+}
+
+.booknow {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 1em;
+    margin-top: 4%;
+}
+
+
+
+.add-to-cart:hover {
+    background-color: #333;
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column; /* Stacks cards vertically on small screens */
+        align-items: center;
+    }
+
+    .product-card {
+        max-width: 100%;
+        width: 80%; /* Adjust width for mobile view */
+    }
+}
+
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.reservations {
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.res-buts {
+  padding-left: 10%;
+}
+
+.icon {
+  color: #ef8172;
+  text-align: center;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.col-lg-4 {
+  padding: 10% 5%;
+  text-align: center;
+  font-family: 'Montserrat' sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+i {
+  padding: 3px;
+}
+
+#description {
+  color: white;
+  background-color: #B7592E;
+  text-align: center;
+  padding: 3%;
+}
+
+.des {
+  color: white;
+}
+
+#contactme {
+  padding: 3%;
+}
+
+.con {
+  color: black;
+}
+
+/* testimonial section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #B7592E;
+  color: white;
+
+}
+
+.d-inline-block {
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+  align-items: center;
+
+}
+
+.stuff {
+  vertical-align: middle;
+  padding-top: 5%;
+}
+
+/* widget holder */
+
+.widget {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 5%;
+}
+
+.frame {
+  margin-top: 3%;
+  text-align: center;
+  align-items: center;
+}
+
+/* hours */
+
+.hrs {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 5% 0 3%;
+}
+
+/* press section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 10% 15%;
+}
+
+.postword {
+  background-color: #B7592E;
+  color: white;
+  text-align: center;
+  padding: 5% 0 3%;
+}
+
+.last {
+  margin: 5% 0.5rem;
+}
+
+#footer {
+  text-align: center;
+  background-color: white;
+  color: gray;
+  padding: 1rem;
+}
+
+.ico:hover {
+  color: black;
+}
+
+.copy {
+  font-size: 1rem;
+}
+
+.medias {
+  color: grey;
+  width: 10px;
+}
+/* mobile adaptivity */
+
+@media (max-width:1028px) {
+
+  .chunk {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: none;
+    align-items: center;
+  }
+
+
+  }
+
+  @media only screen and (max-width: 768px) {
+    .hide {
+      display: none !important; /* !important helps override other styles if necessary */
+    }
+  }
+
+  #features {
+    position: static;
+  }
+
+  /* Servies */
+
+  #grooming {
+    background-color: white;
+    position: relative;
+    padding: 5%;
+
+}
+
+#services-btns {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+/* grooming page */
+
+.hunter {
+  width: 35rem;
+  padding-left: 10%;
+}
+
+#grooming-customers {
+  padding: 2%;
+}
+
+.happy {
+  text-align: center;
+}
+
+.collage {
+  width: 60%;
+}
+
+/* training */
+
+#bio {
+  padding: 3%;
+  background-color: #B7592E;
+  color: white;
+}
+.long {
+  color: white;
+}
+
+#pricing {
+  padding-top: 2%;
+}
+
+.flowchart {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.train {
+  width: 50%;
+}
+
+/* hours */
+
+.hours {
+  color: white;
+}
