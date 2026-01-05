@@ -105,17 +105,20 @@ body {
     background-color: #333;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .card-container {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1.25rem;   /* 👈 space between cards */
+        gap: 1.25rem;   /* spacing between cards */
+        width: 100%;
     }
 
     .product-card {
         width: 100%;
-        max-width: 500px;
+        max-width: 500px; /* adjust if needed */
         min-width: 0;
+        margin: 0;        /* remove old spacing hacks */
     }
 }
 
@@ -376,6 +379,7 @@ i {
 .hours {
   color: white;
 }
+
 
 
 
