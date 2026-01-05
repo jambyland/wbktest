@@ -106,7 +106,7 @@ body {
 }
 
 /* Responsive adjustment for small screens */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .card-container {
         flex-direction: column; /* Stacks cards vertically on small screens */
         align-items: center;
@@ -375,3 +375,4 @@ i {
 .hours {
   color: white;
 }
+
